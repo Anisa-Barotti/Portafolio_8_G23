@@ -252,10 +252,12 @@ body {
          margin-left: 28px;
      }
      .experience__element {
+        max-width: 380px;
          display: flex;
          align-items: center;
          line-height: 10px; 
          padding: 15px 0px;
+         
      }
      .logo__place{
          display: flex;
@@ -705,7 +707,7 @@ body {
         flex-direction: column;
         width: 100%;
         margin-top: 10px;
-        margin-left: 15px;
+        margin-left: 0px;
     }
     .circle__container .circle1 {
         width: 200px;
@@ -755,6 +757,7 @@ body {
     .experience {
         background-color: var(--white);
         margin-top: 0px;
+        margin-bottom: 10px;
     }
     .experience__title h2 {
         font-size: 40px;
@@ -769,7 +772,7 @@ body {
         display: flex;
         align-items: center;
         line-height: 10px;
-        margin-left: 25px;   
+        margin-left: 10px;   
         gap: 0px;    
     }
     .logo__place{
@@ -781,11 +784,14 @@ body {
     }    
     .years {
         font-size: 20px;
-        width: 75px;
+        width: 70px;
     }
     /** Portafolio */
 .briefcase {
     display: flex;
+    margin-left: 0px;
+    margin-top: -10px;
+    padding: 10px ;
 }
 .briefcase__container {
     display: flex;
@@ -794,9 +800,11 @@ body {
 }
 .image1__container img {
     max-width: 350px;
+    margin-left: 20px;
+    margin-top: -40px;
 }
 .briefcase__element {
-    margin-left: 500px;
+    margin-left: 450px;
     margin-bottom: 60px;
     margin-top: -250px;
 }
@@ -812,7 +820,7 @@ body {
 .image2__container img {
     max-width: 350px;
     margin-top: -50px;
-    margin-left: 650px;  
+    margin-left: 510px;  
 }
 .image2__container p {
     margin-left: 670px; 
@@ -833,8 +841,10 @@ body {
     height: 340px;
 }
 .thirts__section {
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
-    margin-left: 250px;
+    margin-left: 300px;
     gap: 110px;
 }
 .icons__contact a {
